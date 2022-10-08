@@ -1,0 +1,88 @@
+body {
+  background-color: #2b2c2f;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  flex-direction: column;  
+}
+
+.input-field {
+  width: 220px;
+  height: 30px;
+  background: none;
+  margin-right: 15px;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  background-color: transparent;
+  box-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.btn,
+.delete-btn {
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
+  width: 80px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 150px;
+}
+
+.btn:hover,
+.input-field:hover:hover,
+.delete-btn:hover {
+  box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
+
+}
+
+.d-f{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.d-f > div{
+  cursor: pointer;;
+}
+
+.todo-count{
+  color: #fff;
+  margin-top: 15px;
+
+}
+.buttons{
+  margin-top: 15px;
+
+}
+
+.update-btn{
+  margin-right: 10px;
+}
+.a{
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
